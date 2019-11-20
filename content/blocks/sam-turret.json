@@ -1,0 +1,37 @@
+{
+	"type": "BurstTurret",
+	"name": "SAM turret",
+	"description": "Surface to Air Missile platform",
+	"health": 200,
+	"size": 2,
+	"reload": 20,
+	"range": 225,
+	"targetGround": false,
+	"ammo": {
+		"rocket": {
+			"speed": 1.2,
+			"damage": 4,
+			"lifetime": 50,
+			"collidesTiles": false,
+			"bulletSprite": "missile",
+			"fragBullets": 4,
+			"fragBullet": {
+				"type": "MissileBulletType",
+				"bulletSprite": "missile",
+				"keepVelocity": "true",
+				"damage": 10,
+				"collidesTiles": true,
+				"speed": 4,
+				"lifetime": 75,
+				"homingRange": 75,
+				"homingPower": 2
+			}
+		}
+	},
+	"requirements": [
+	{ "item": "titanium", "amount": 35 },
+		{"item": "plastanium", "amount": 40}
+],
+	"category": "turret",
+	"research": "duo"
+}

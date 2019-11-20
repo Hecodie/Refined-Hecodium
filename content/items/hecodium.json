@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Hecodium",
+	"description": "An alloy of Thorium and Titanium.",
+	"cost": 3,
+	"color": "7575c8"
+}

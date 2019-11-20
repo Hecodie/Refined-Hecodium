@@ -1,0 +1,12 @@
+{
+	"name": "Hecodium Wall",
+	"description": "A wall made of Hecodium. Not particularly interesting.",
+	"type": "Wall",
+	"health": 3400,
+	"size": 2,
+	"requirements": [
+		{ "item": "hecodium", "amount": 40 }
+	],
+	"category": "defense",
+	"research": "titanium-wall"
+}
