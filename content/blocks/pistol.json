@@ -1,7 +1,7 @@
 {
 	"type": "DoubleTurret",
-	"name": "Refined Duo",
-	"description": "Duo test turret",
+	"name": "Pistol",
+	"description": "Basic Defense platform.",
 	"health": 200,
 	"size": 1,
 	"reload": 40,
@@ -38,5 +38,5 @@
 	{ "item": "copper", "amount": 35 }
 ],
 	"category": "turret",
-	"research": "scatter"
+	"research": "bullet-armory"
 }

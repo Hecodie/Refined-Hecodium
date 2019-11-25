@@ -4,28 +4,25 @@
 	"description": "Surface to Air Missile platform",
 	"health": 200,
 	"size": 2,
-	"reload": 20,
+	"reload": 150,
 	"range": 225,
+	"rotatespeed": 30,
+	"xRand": 6,
+	"shots" : 4,
+	"burstSpacing" : 5,
+	"shootCone": 12,
 	"targetGround": false,
 	"ammo": {
 		"rocket": {
-			"speed": 1.2,
-			"damage": 4,
-			"lifetime": 50,
-			"collidesTiles": false,
+			"type": "MissileBulletType",
+			"speed": 4,
+			"splashDamage": 35,
+			"splashDamageRadius": 16,
+			"lifetime": 65,
+			"collidesTiles": true,
 			"bulletSprite": "missile",
-			"fragBullets": 4,
-			"fragBullet": {
-				"type": "MissileBulletType",
-				"bulletSprite": "missile",
-				"keepVelocity": "true",
-				"damage": 10,
-				"collidesTiles": true,
-				"speed": 4,
-				"lifetime": 75,
-				"homingRange": 75,
-				"homingPower": 2
-			}
+			"homingRange": 50,
+			"homingPower": 7
 		}
 	},
 	"requirements": [
@@ -33,5 +30,5 @@
 		{"item": "plastanium", "amount": 40}
 ],
 	"category": "turret",
-	"research": "duo"
+	"research": "rocket-armory"
 }

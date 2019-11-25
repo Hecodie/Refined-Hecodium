@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Hecodium",
-	"description": "An alloy of Thorium and Titanium.",
-	"cost": 3,
-	"color": "7575c8"
+	"description": "An alloy of Titanium and Lead.",
+	"cost": 1.2,
+	"color": "919fe7"
 }

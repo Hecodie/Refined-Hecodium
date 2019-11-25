@@ -6,7 +6,7 @@
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
-	"hasLiquids": true,
+	"hasLiquids": false,
 	"liquidCapacity": 60,
 	"craftTime": 60,
 	"updateEffect": "smeltsmoke",
@@ -14,8 +14,8 @@
 		"power": 1.0,
 		"items": {
 			"items": [
-				{ "item": "blast-compound", "amount": 3},
-				{ "item": "titanium", "amount": 2}
+				{ "item": "blast-compound", "amount": 2},
+				{ "item": "hecodium", "amount": 1}
 			]
 		}
 	},
@@ -25,7 +25,7 @@
 		{ "item": "silicon", "amount": 60 }
 	],
 	"category": "crafting",
-	"research": "laser-drill",
-	"idleSound": "respawning",
+	"research": "flak-cannon",
+	"idleSound": "machine",
 	"idleSoundVolume": 0.5
 }

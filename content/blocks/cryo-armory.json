@@ -25,7 +25,7 @@
 		{ "item": "silicon", "amount": 60 }
 	],
 	"category": "crafting",
-	"research": "laser-drill",
-	"idleSound": "respawning",
+	"research": "burst-turret",
+	"idleSound": "machine",
 	"idleSoundVolume": 0.5
 }
