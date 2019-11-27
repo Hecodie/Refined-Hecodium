@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"name": "Tracer Armory",
 	"description": "Creates Tracer rounds that track enemies.",
-	"outputItem": {"item": "tracer-round", "amount": 1},
+	"outputItem": {"item": "tracer-round", "amount": 2},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,

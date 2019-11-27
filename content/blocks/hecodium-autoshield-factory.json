@@ -1,6 +1,6 @@
 {
   "name": "Ghost Factory",
-  "description": "Makes automated shield units.",
+  "description": "Makes automated upgraded spirit units.",
   "type": "UnitFactory",
   "unitType": "hecodium-shield",
   "size": 4,
@@ -10,8 +10,8 @@
     "power": 1.5,
     "items": {
       "items": [
-        {"item": "silicon", "amount": 50},
-        {"item": "hecodium", "amount": 25}
+        {"item": "silicon", "amount": 25},
+        {"item": "hecodium", "amount": 50}
       ]
     }
   },

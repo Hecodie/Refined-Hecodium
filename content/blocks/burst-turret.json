@@ -30,8 +30,9 @@
 		},
 		"ap-round": {
 			"speed": 7,
-			"damage": 12,
-			"pierce": "true"
+			"damage": 18,
+			"pierce": "true",
+			"reloadMultiplier": 1.1
 		},
 		"cryo-round": {
 			"type": "FlakBulletType",
