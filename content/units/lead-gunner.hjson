@@ -1,0 +1,38 @@
+{
+	"type": "GroundUnit",
+	"name": "Lead Gunner",
+	"description": "Basic Lead Gunner.",
+	"maxVelocity": 1.1,
+	"speed": 0.2,
+	"drag": 0.4,
+	"hitsize": 4,
+	"mass": 1.75,
+	"health": 75,
+	"flying": false,
+	"rotateWeapon": true,
+	"targetAir": true,
+	"rotateSpeed": 0.1,
+	"engineOffset": 5.5,
+	"shootCone": 10,
+	"attackLength": 6,
+	"weapon": {
+		"name": "lead-blaster",
+		"length": 0.5,
+		"reload": 180,
+		"alternate": true,
+		"inaccuracy": 0,
+		"ejectEffect": "shellEjectSmall",
+		"bullet": {
+			"speed": 5.0,
+			"lifetime": 35,
+			"damage": 12,
+			"reloadMultiplier": 1.5,
+			"ammoMultiplier": 4,
+			"bulletWidth": 5,
+			"bulletHeight": 10,
+			"frontColor": "ab99d3",
+			"backColor": "f9d701",
+			"bulletSprite": "refined-hecodium-heco-bullet"
+		}
+	}
+}

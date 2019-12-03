@@ -1,0 +1,12 @@
+{
+  type: OverflowGate
+  name: Hecodium Overflow Gate
+  description: Advanced Overflow that allows for the passage of units.
+  solid: false
+  health: 80
+  requirements: [
+  hecodium/4
+  ]
+  category: distribution
+  research: hecodium-forge
+}

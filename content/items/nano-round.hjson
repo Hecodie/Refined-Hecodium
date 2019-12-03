@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Nano-Round",
+	"description": "Bullet filled with nanobots.",
+	"cost": 1,
+	"color": "edf3a9"
+}

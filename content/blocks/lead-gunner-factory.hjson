@@ -1,0 +1,24 @@
+{
+  "name": "Lead Gunner Factory",
+  "description": "Test Gunner V1 Factory.",
+  "type": "UnitFactory",
+  "unitType": "lead-gunner",
+  "size": 2,
+  "produceTime": 850,
+  "maxSpawn": 4,
+  "consumes": {
+    "power": 0.4,
+    "items": {
+      "items": [
+        {"item": "lead-round", "amount": 12},
+        {"item": "copper", "amount": 6}
+      ]
+    }
+  },
+  "category": "units",
+  "research": "pistol",
+  "requirements": [
+    { "item": "copper", "amount": 40 },
+    { "item": "lead", "amount": 20 }
+  ]
+}

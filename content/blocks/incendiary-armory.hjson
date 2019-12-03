@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"name": "Incendiary Armory",
 	"description": "Creates Incendiary Rounds to set enemies on fire.",
-	"outputItem": {"item": "incendiary-round", "amount": 1},
+	"outputItem": {"item": "incendiary-round", "amount": 2},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -24,8 +24,8 @@
 		{ "item": "lead", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],
+	"buildVisibility": "debugOnly",
 	"category": "crafting",
-	"research": "burst-turret",
 	"idleSound": "machine",
 	"idleSoundVolume": 0.5
 }

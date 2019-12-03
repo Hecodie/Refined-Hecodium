@@ -9,10 +9,15 @@
 	"ammo": {
 		"lead-round": {
 			"speed": 5.0,
+			"lifetime": 35,
 			"damage": 12,
 			"reloadMultiplier": 1.5,
 			"ammoMultiplier": 4,
-			"drag": 0.02
+			"bulletWidth": 5,
+			"bulletHeight": 10,
+			"frontColor": "ab99d3",
+			"backColor": "f9d701",
+			"bulletSprite": "refined-hecodium-heco-bullet"
 		},
 		"heavy-round": {
 			"speed": 6.0,
@@ -20,19 +25,6 @@
 			"reloadMultiplier": 1,
 			"ammoMultiplier": 4
 		},
-		"tracer-round": {
-			"speed": 4.5,
-			"damage": 12,
-			"reloadMultiplier": 1.3,
-			"homingPower": 0.5,
-			"homingRange": 60
-		},
-		"incendiary-round": {
-			"speed": 6,
-			"damage": 12,
-            "reloadMultiplier": 1.3,
-			"status": "burning"
-		}
 	},
 	"requirements": [
 	{ "item": "copper", "amount": 35 }

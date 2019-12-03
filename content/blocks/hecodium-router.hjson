@@ -1,0 +1,12 @@
+{
+  type: Router
+  name: Hecodium Router
+  description: Acts like a normal router. H.E.co. engineers have found a way to compress the complicated routing system and with a system of ramps allow it to be traverced by mech units.
+  solid: false
+  health: 80
+  requirements: [
+  hecodium/4
+  ]
+  category: distribution
+  research: hecodium-forge
+}

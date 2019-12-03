@@ -12,6 +12,7 @@
 	"range": 50,
 	"shootCone": 40,
 	"attackLength": 50,
+	"maxVelocity": 0.2,
 
 	"weapon": {
 		"name": "chrome-blaster",

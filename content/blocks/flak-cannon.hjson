@@ -2,11 +2,11 @@
 	"type": "BurstTurret",
 	"name": "Flak Cannon",
 	"description": "Heavy Anti-Air and ground cannon",
-	"health": 200,
+	"health": 880,
 	"size": 2,
 	"reload": 40,
 	"range": 175,
-	"targetGround": true,
+	"targetGround": false,
 	"ammo": {
 		"scrap-flak": {
 			"type": "FlakBulletType",
@@ -37,8 +37,8 @@
 		}
 	},
 	"requirements": [
-	{ "item": "copper", "amount": 35 },
-		{ "item": "lead", "amount": 35 }
+	{ "item": "copper", "amount": 85 },
+		{ "item": "lead", "amount": 45 }
 ],
 	"category": "turret",
 	"research": "flak-armory"

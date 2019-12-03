@@ -24,8 +24,9 @@
 		{ "item": "lead", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],
+	"buildVisibility": "debugOnly",
 	"category": "crafting",
-	"research": "burst-turret",
+
 	"idleSound": "machine",
 	"idleSoundVolume": 0.5
 }

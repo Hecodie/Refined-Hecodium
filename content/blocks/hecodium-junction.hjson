@@ -1,0 +1,12 @@
+{
+  type: Junction
+  name: Hecodium Junction
+  description: New tech from H.E.co. through extensive RnD we have created a new type of junction that passes items underground.
+  solid: false
+  health: 80
+  requirements: [
+  hecodium/1
+  ]
+  category: distribution
+  research: hecodium-forge
+}

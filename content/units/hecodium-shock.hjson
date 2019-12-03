@@ -12,7 +12,7 @@
 	"range": 10,
 	"shootCone": 10,
 	"attackLength": 60,
-
+	"maxVelocity": 0.3,
 	"weapon": {
 		"name": "flamethrower",
 		"length": 0.5,

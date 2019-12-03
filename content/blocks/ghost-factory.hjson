@@ -15,8 +15,8 @@
       ]
     }
   },
-  "buildVisibility": "debugOnly",
   "category": "units",
+  "research": "nano-armory",
   "requirements": [
     { "item": "hecodium", "amount": 40 },
     { "item": "silicon", "amount": 40 },

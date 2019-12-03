@@ -5,6 +5,7 @@
 	"speed": 0.5,
     "mass": 2,
     "drag": 0.35,
+	"maxVelocity": 0.5,
 	"flying": true,
 	"rotateWeapon": true,
 	"health": 250,

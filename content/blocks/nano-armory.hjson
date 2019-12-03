@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Nano-Armory",
+	"description": "Creates healing bullets to repair ally structures.",
+	"outputItem": {"item": "nano-round", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": false,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "phase-fabric", "amount": 1 },
+				{ "item": "plastanium", "amount": 2}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "hecodium", "amount": 75 },
+		{ "item": "thorium", "amount": 40 }
+	],
+	"category": "crafting",
+	"research": "hecodium-forge",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.2
+}

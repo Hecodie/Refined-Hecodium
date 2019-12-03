@@ -24,7 +24,7 @@
 		{ "item": "silicon", "amount": 40 }
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
+	"research": "pistol",
 	"idleSound": "machine",
 	"idleSoundVolume": 0.5
 }
