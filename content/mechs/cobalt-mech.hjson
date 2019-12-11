@@ -1,0 +1,29 @@
+{
+	"name": "Cobalt Mech",
+	"description": "Basic mech used by HE.co. workers.",
+	"speed": 0.55,
+	maxSpeed : 5,
+	boostSpeed : 0.8
+	"drillPower": 1,
+	"mineSpeed": 6,
+	"buildPower": 1.2,
+	"engineColor": "8f9de5",
+	"engineOffset": 4.9,
+	"itemCapacity": 60,
+	"canHeal": false,
+	"flying": false,
+	"health": 200,
+	"weaponOffsetX": 2.5,
+	"weapon": {
+		"name": "cobalt-blaster",
+		"length": 1,
+		"reload": 40,
+		"alternate": true,
+		"bullet": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 2,
+			"damage": 5
+		}
+	}
+}

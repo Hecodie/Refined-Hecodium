@@ -7,7 +7,7 @@
 	"drag": 0.4,
 	"hitsize": 4,
 	"mass": 1.75,
-	"health": 75,
+	"health": 100,
 	"flying": false,
 	"rotateWeapon": true,
 	"targetAir": true,

@@ -1,0 +1,21 @@
+{
+"name": "hecodium core",
+"description": "After construction, it is impossible to remove it.",
+"type": "CoreBlock",
+"hasItems": true,
+"itemCapacity": 4000,
+"health": 1100,
+"size": 3,
+  "mech": "cobalt-mech",
+"requirements": [
+{ "item": "silicon", "amount": 1000 },
+{ "item": "lead", "amount": 1000 },
+{ "item": "titanium", "amount": 1000 },
+{ "item": "copper", "amount": 1000 },
+{ "item": "plastanium", "amount": 1000 },
+{ "item": "hecodium", "amount": 1000 }
+],
+"buildVisibility": "sandboxOnly",
+"category": "effect",
+"research": "launch-pad"
+}
