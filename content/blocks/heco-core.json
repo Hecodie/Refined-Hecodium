@@ -8,14 +8,13 @@
 "size": 3,
   "mech": "cobalt-mech",
 "requirements": [
-{ "item": "silicon", "amount": 1000 },
-{ "item": "lead", "amount": 1000 },
-{ "item": "titanium", "amount": 1000 },
-{ "item": "copper", "amount": 1000 },
-{ "item": "plastanium", "amount": 1000 },
-{ "item": "hecodium", "amount": 1000 }
+{ "item": "silicon", "amount": 3000 },
+{ "item": "titanium", "amount": 3000 },
+{ "item": "phase-fabric", "amount": 3000 },
+{ "item": "plastanium", "amount": 3000 },
+{ "item": "surge-alloy", "amount": 3000 },
+{ "item": "hecodium", "amount": 3000 }
 ],
-"buildVisibility": "sandboxOnly",
 "category": "effect",
 "research": "launch-pad"
 }
